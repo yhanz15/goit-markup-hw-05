@@ -12,6 +12,11 @@
   --mintgreen: #31d0aa;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -31,7 +36,6 @@ p {
   margin: 0;
 }
 
-*,
 ul,
 ol {
   margin: 0;
@@ -41,7 +45,6 @@ ol {
 /* Main Page */
 
 body {
-  width: 1440px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -188,7 +191,6 @@ img {
 /* 1st Section */
 
 .hero-section {
-  width: 1440px;
   margin: auto;
   background-color: var(--navyblue);
   height: 600px;
@@ -332,7 +334,7 @@ img {
 }
 .four-sect {
   background-color: var(--cloud);
-  width: 1440px;
+
   margin: auto;
   padding: 0;
 }
@@ -439,7 +441,6 @@ img {
 .below {
   background-color: var(--navyblue);
   padding: 100px 0;
-  width: 1440px;
   margin: auto;
 }
 .container-foot {
@@ -520,7 +521,6 @@ img {
   fill: var(--white);
 }
 
-
 /* H5 */
 .backdrop {
   position: fixed;
@@ -583,7 +583,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
-
 
 /*portfolio*/
 
@@ -670,7 +669,6 @@ img {
 .port-footing {
   margin-top: -120px;
 }
-
 
 .port-cover-wrap {
   position: relative;
