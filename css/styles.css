@@ -45,6 +45,7 @@ ol {
 /* Main Page */
 
 body {
+  width: 1440px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -191,6 +192,7 @@ img {
 /* 1st Section */
 
 .hero-section {
+  width: 1440px;
   margin: auto;
   background-color: var(--navyblue);
   height: 600px;
@@ -334,6 +336,7 @@ img {
 }
 .four-sect {
   background-color: var(--cloud);
+  width: 1440px;
 
   margin: auto;
   padding: 0;
@@ -439,6 +442,7 @@ img {
 /*footer*/
 
 .below {
+  width: 1440px;
   background-color: var(--navyblue);
   padding: 100px 0;
   margin: auto;
